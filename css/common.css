@@ -96,8 +96,9 @@ img {
 .login-form {
     display: flex;
     flex-direction: column;
-  }
-  .login-form label {
+}
+
+.login-form label {
     display: flex;
     flex-direction: column;
     color: #2e2f42;
@@ -106,17 +107,20 @@ img {
     line-height: 1.5;
     gap: 8px;
     margin-bottom: 8px;
-  }
-  .login-form label input {
+}
+  
+.login-form label input {
     max-width: 360px;
     height: 40px;
     border-radius: 4px;
     border: 1px solid #808080;
-  }
-  .login-form label input:hover {
+}
+  
+.login-form label input:hover {
     border: 1px solid #000;
-  }
-  .login-form button {
+}
+  
+.login-form button {
     margin-top: 8px;
     width: 86px;
     height: 40px;
@@ -128,7 +132,114 @@ img {
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
-  }
-  .login-form button:hover {
+}
+  
+.login-form button:hover {
     background-color: #6c8cff;
-  }
+}
+
+  
+/* task-05 */ 
+
+.widget {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 100px 0;
+}
+  
+.widget p {
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+  
+.color {
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+  
+.change-color {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 148px;
+    width: 100%;
+    border-radius: 8px;
+    border: none;
+    background: #4e75ff;
+    padding: 8px 16px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* task-06 */
+
+#controls {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    gap: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f6f6fe;
+    padding: 32px;
+    margin: 16px 0 16px;
+}
+  
+#controls input {
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid #808080;
+}
+  
+#controls [data-create] {
+    border: none;
+    border-radius: 8px;
+    background-color: #4e75ff;
+    padding: 8px 16px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+}
+  
+#controls [data-create]:hover {
+    background-color: #6c8cff;
+}
+  
+#controls [data-destroy] {
+    border: none;
+    border-radius: 8px;
+    background-color: #ff4e4e;
+    padding: 8px 16px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    text-align: center;
+}
+  
+#controls [data-destroy]:hover {
+    background-color: #ff7070;
+}
+  
+#boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f6f6fe;
+    padding: 32px;
+    flex-wrap: wrap;
+}
