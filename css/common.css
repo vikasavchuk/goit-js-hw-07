@@ -65,4 +65,28 @@ img {
     gap: 48px 24px;
     flex-wrap: wrap;
     flex-shrink: 0;
-  }
+}
+
+/* task-03 */
+
+#name-input {
+    width: 360px;
+    height: 40px;
+    padding: 8px 16px;
+    border-radius: 4px;
+    border: 1px solid #808080;
+}
+  
+#name-input::placeholder {
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+  
+#name-output {
+    color: #2e2f42;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.33;
+}
