@@ -29,7 +29,7 @@ const images = [
   const markup = images
     .map(
       (images) =>
-        `<li><img src='${images.url} alt='${images.alt} width="360" height="300"'</li>`
+        `<li><img src="${images.url}" alt="${images.alt}" width=360 height=300</li>`
     )
     .join("");
   ulElement.innerHTML = markup;
